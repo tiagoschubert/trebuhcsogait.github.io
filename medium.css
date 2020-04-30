@@ -1,0 +1,14 @@
+@media(max-width: 550px){
+    img{
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+    portal{
+        float: none;
+    } 
+    footer{
+        margin-top: 0px;
+       
+    }
+ }
