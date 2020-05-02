@@ -1,0 +1,91 @@
+body {
+    max-width: 75%;
+    margin: 0 auto;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-bottom: 10px;
+    }
+
+header h1 {
+    font-family: "Fredoka One", arial, sans-serif;  
+    font-size: 50px;
+    padding-left: 10px;
+    margin: 5px 0;
+    text-align: left;  
+    color: rgb(7, 79, 187);
+    text-align: center;
+}
+
+header h3 {
+    font-family: arial, sans-serif;
+    margin: 5px 0;
+    color: black;
+    padding-left: 10px;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    padding-bottom: 40px;
+    margin:20px;
+}
+
+main h3 {
+    
+    background-color: rgb(7, 79, 187);
+    font-family: arial, sans-serif;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+}
+p {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+img {
+    max-width: 250px;
+    display: block;
+    margin: 16px auto;
+    box-shadow: 5px 5px 10px #474A52;
+    
+}
+
+
+main p:last-child {
+    background-color: rgb(7, 79, 187);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5em;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(7, 79, 187);
+    
+    
+    
+}
+
+a:hover {
+    color: black;
+    
+}
+
+footer {
+    margin: 20px;
+}
