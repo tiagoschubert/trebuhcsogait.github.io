@@ -7,7 +7,7 @@ h1, footer, footer p a{
     color: white;
     border: 5px solid rgb(7, 79, 187);
 }
-footer, footer p a{
+header, footer, footer p a{
     font-family: 'Varela Round', sans-serif;
 }
 h1, footer{
@@ -21,7 +21,7 @@ h1{
     font-size: 3em;
     letter-spacing: 3px;
     word-spacing: 5px;
-    font-family: 'Alegreya SC', serif, Impact;
+    font-family: 'Alegreya SC', Impact, serif;
     border: 3px solid rgb(7, 79, 187);
 }
 h2{
