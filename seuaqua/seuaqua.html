@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+<!--    <link rel="stylesheet" href="medium.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <title>Home page</title>
+</head>
+<body>
+    <div class="content">
+        <h1>SEUAQUA</h1>
+        <img src="logo.png" alt="logo seuaqua">
+        <section class="portal">
+        <h2>Estes peixes sao compativeis?</h2>
+        <hr/>
+        <form>
+            <label for="peixe">Escolha o peixe inicial:</label>
+            <select id="atual" name="atual">
+                    <option value="" selected></option>
+                    <option value="1">beta</option>
+                    <option value="2">kinguio</option>
+                    <option value="3">acara</option>
+                    <option value="4">angelfish</option>
+            </select>
+        </br>
+            <label for="peixe">Escolha o peixe que voce quer adicionar:</label>
+            <select id="novo" name="novo">
+              <option value="" selected></option>
+              <option value="1">Beta</option>
+              <option value="2">Kinguio</option>
+              <option value="3">Acara</option>
+              <option value="4">Neon</option>
+            </select>
+        </br>
+        <button onclick="myFunction()">Testar</button>
+        <div id="demo"></div>
+            <script>
+                  function myFunction(){
+                    var atual = document.getElementById("atual").selectedIndex;
+                    var novo = document.getElementById("novo").selectedIndex;
+                    var text = "";
+                    if (atual == novo) {if(atual == 1 && novo == 1){text="Beta femeas podem ficar juntas, mas betas machos devem sempre ficar sozinhos"
+                  } else {text = "Cuidado com a super lotacao";}}
+                  else if(atual == 2 || novo == 2){text = "Nao sao compativeis";} 
+                  
+                  else {text = "Ainda nao termninamos o site";
+                }
+                    document.getElementById("demo").innerHTML = text;
+                   }
+
+            </script>
+          </form>
+         </section>
+         <footer>
+             <p class="copyright">&copy;2020 | <span>SEUAQUA</span> | Arkansas | <a href="https://www.byui.edu/online" target="_blank"></a> </p>
+             <p class="updatedDate">Last Updated: <span id="dateOutput"></span></p>
+         </footer>
+         </div>
+         <script type="text/javascript">
+         let lastmod = document.lastModified;
+document.getElementById("dateOutput").innerHTML = lastmod;      
+
+         </script>
+</body>
+</html>
