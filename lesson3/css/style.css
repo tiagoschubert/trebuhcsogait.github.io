@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Merriweather', sans-serif, serif;
+    line-height: 1.6;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #14213D;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+a {
+    color: #E5E5E5;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: #FCA311;
+}
+footer , a{
+    color: #000000;
+}
+.sitename{
+    text-align: center;
+    font-size: 2em;
+}
+.logo {
+    margin: 0;
+    background-color: #14213D;
+    border-radius: 20px 20px 20px 20px ; 
+    max-width: 30px;
+    height: 32px;
+    
+    
+    
+    
+    
+}
+
+.main-nav {
+    margin-top: 5px;
+
+}
+
+.main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.main-nav a {
+    color: #E5E5E5;
+    font-size: .99em;
+}
+
+.main-nav a:hover {
+    color: #14213D;;
+}
+
+
+header {
+    padding-top: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: .5em;
+    background-color: #FCA311;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    /*border-radius: 5px;*/
+}
+
+footer{
+    font-size: 0.8em;
+    color: #000000;
+    padding-top: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: .5em;
+    background-color: #FCA311;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+h1{
+    font-size: 2em;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+h2{
+    font-size: 2em;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+h2{
+    font-size: 1.4em;
+}
+
+p{
+    font-size: 1em;
+}
+
+
+
+main{
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    color: #E5E5E5;
+    
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+
+
+/* Plan Website Assignment */
+
+.logo-div{
+    width: 10em;
+    height: 10em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+    background: #323544;
+}
+th {
+    background: #14213D;
+    color: #E5E5E5;
+    font-weight: bold;
+}
+td, th {
+    padding: 6px;
+    border: 2px solid #E5E5E5;
+    text-align: left;
+}
+
+td{
+    color: #1e202b;
+    background-color: #fff;
+    border: 2px solid #bfc1c8;
+}

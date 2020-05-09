@@ -1,0 +1,23 @@
+@media (min-width: 35em) {
+    header,
+    .main-nav {
+        display: flex;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 65em) {
+    header {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+}
