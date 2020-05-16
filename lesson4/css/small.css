@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+html {
+    
+    
+}
+
+body {
+    background-color: #14213D;
+    font-family: 'Merriweather', sans-serif, serif;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+
+header {
+    flex-direction: column;
+    padding-top: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: .5em;
+    background-color: #FCA311;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    background-color: #14213D;
+    border-radius: 20px 20px 20px 20px ; 
+    max-width: 30px;
+    height: 32px;  
+    
+}
+
+
+
+header h1, h3 {
+    margin: 0;
+    padding: .5rem;
+    color: #000000;
+    font-family: "Trirong", cursive;
+}
+
+
+.sitename{
+    text-align: center;
+    font-size: 2em;
+}
+nav {
+    background-color: #E5E5E5;
+    margin: 0;
+    border-radius: 0 0 5px 5px;
+    font-family: 'Merriweather', sans-serif, serif;
+    font-size: 18px;
+}
+
+nav button {
+    margin: .2rem 2%;
+    padding: .8rem 2%;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+}
+
+#navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+}
+ nav ul.response {
+    display: none;
+}
+
+nav li {
+    display: block;
+    padding: .8rem 2%;
+    margin-left: 2%;
+    text-align: left;
+    text-decoration: none;
+    color: #F3E9D2;
+    border-top: 1px solid rgba(17, 75, 95, 0.5 )
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li.active {
+    
+    color: #114B5F;
+}
+
+li:hover {
+    color: #14213D;
+}
+
+
+
+main{
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    color: #E5E5E5;
+    
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+}
+.contentbox {
+    display: block;
+    background-color: #FCA311;
+    margin: 2rem;
+    padding: 1rem;
+    color: #000000;
+    border-radius: 5px;
+}
+
+
+/* Footer CSS */
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FCA311;
+    color: #000000;
+    font-size: 16px;
+    
+    border-radius: 0 0 5px 5px;
+}
+
+footer p {
+    margin: 0;
+}

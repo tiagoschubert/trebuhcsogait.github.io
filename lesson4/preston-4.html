@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleenday -  WDD230</title>
+    <meta name="description" content="Preston Town Page of Weather Website">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Trirong:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="page-header">
+            <div class="logo"> <img src="images/cleen.png" alt="Logo"></div>
+       
+                <div class=sitename>Cleenday weather</div>
+        
+    </header>
+    <nav>
+        <button class="ham" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="response">
+            <li><a href="">Home</a></li>
+            <li class="active"><a href="">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="">Storm Center</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="contentbox">Hero Image/Weather Summary</div>
+        <div class="contentbox">5 Day Forecast</div>
+        <div class="contentbox">Article</div>
+        <div class="contentbox">Contact Information</div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year">The Weather is here</span> | Tiago Schubert | Arkansas | </p>
+        <p><span id=".date"></span></p>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+@media (min-width: 1024px) {
+  
+    body {
+        display: flex;
+        flex-direction: column;
+        background-color: #E5E5E5;
+        max-width: 900px;
+        min-width: 900px;
+        
+        
+    }
+
+    header {
+        padding: 1.5rem;
+        
+            display: flex;
+        
+    }
+
+    header h3 {
+        font-size: 18pt;
+        margin-top: -5px;
+    }
+
+    
+
+    nav {
+        font-size: 18pt;
+    }
+
+    main {
+        font-size: 18pt;
+        min-width: 900px;
+        max-width: 900px;
+        align-self: center;
+        background-color: #14213D;
+    }
+
+    footer {
+        max-width: 900px;
+        min-width: 900px;
+        align-self: center;
+    }
+}
