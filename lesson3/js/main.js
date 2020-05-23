@@ -1,7 +1,4 @@
 var year = new Date();
 
-document.getElementById("updated").textContent = year.getFullYear();
+document.getElementById("updated").innerHTML = year.getFullYear();
 
-var lastModified = document.lastModified;
-
-document.getElementById("modified").textContent = lastModified;
