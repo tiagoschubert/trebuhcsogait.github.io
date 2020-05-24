@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+html {
+     
+    
+}
+
+body {
+    background-color: #14213D;
+    font-family: 'Merriweather', sans-serif, serif;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+
+header {
+    flex-direction: column;
+    padding-top: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: .5em;
+    background-color: #FCA311;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    background-color: #14213D;
+    border-radius: 20px 20px 20px 20px ; 
+    max-width: 30px;
+    height: 32px;  
+    
+}
+.today-details{
+    position: absolute;
+    top:1.5em;
+    background: #14213D;
+    border: 2px solid  #E5E5E5;
+    opacity: 0.80;
+    color: #fff;
+    width: 25%;
+    padding: 2em;
+    border-radius: 15px;
+    margin-left:2em;
+}
+.today-details p {
+    font-size: 1.5em;
+}
+
+.today-details img {
+    position: relative;
+    width: 5em;
+}
+.contentbox h2{
+    font-size: 2em;
+}
+.today-weather {
+    position: relative;
+    height: 25em;
+    background-image: url(../images/mont.jpg);
+    background-position: center;
+    background-size: 100%;
+    border-radius: 5px ;
+    border: 2px solid black;
+
+    
+    
+}
+table{
+    background-color: #000000;
+
+}
+.forecast5{
+    background-color: #E5E5E5;
+    border: none;
+}
+
+.forecast5 table {
+    width: 100%;
+}
+.forecast5 tr:nth-of-type(odd) {
+    background: #14213D;
+}
+.forecast5 th {
+    background: #14213D;
+    color: #fff;
+    font-weight: bold;
+}
+.forecast5 td, th {
+    padding: 6px;
+    border: none;
+    text-align: center;
+}
+
+.forecast5 td{
+    color: #000000;
+    background-color: #E5E5E5;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.forecast5 td img{
+    max-width: 3.5em;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    
+    padding-bottom: 1.5rem;
+    background-color: #FCA311;
+}
+
+.forecast h3 {
+    color: #14213D;
+}
+article img{
+    float:right;
+    max-width: 30%;
+    margin: 10px;
+    border-radius: 5px ;
+    border: 2px solid black;
+
+}
+.article-p{
+    margin: 10px;
+    
+}
+header h1, h3 {
+    margin: 0;
+    padding: .5rem;
+    color: #000000;
+    font-family: 'Merriweather', cursive;
+}
+
+
+.sitename{
+    text-align: center;
+    font-size: 2em;
+}
+nav {
+    background-color: #E5E5E5;
+    margin: 0;
+    border-radius: 0 0 5px 5px;
+    font-family: 'Merriweather', sans-serif, serif;
+    font-size: 18px;
+    
+}
+
+nav button {
+    margin: .2rem 2%;
+    padding: .8rem 2%;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    border: 2px solid black;
+}
+
+#navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+}
+ nav ul.response {
+    display: none;
+}
+
+nav li {
+    display: block;
+    padding: .8rem 2%;
+    margin-left: 2%;
+    text-align: left;
+    text-decoration: none;
+    color: #F3E9D2;
+    border-top: 1px solid rgba(17, 75, 95, 0.5 )
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li.active {
+    
+    color: #14213D;
+}
+
+li:hover {
+    
+    border-radius: 5px ;
+    border: 2px solid black;
+}
+
+.contact-info{
+float:right;
+margin-top:2em; 
+
+}
+.map{
+    display: flex;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+main{
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    color: #E5E5E5;
+    
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+}
+.contentbox {
+    display: block;
+    background-color: #FCA311;
+    margin: 2rem;
+    padding: 1rem;
+    color: #000000;
+    border-radius: 5px;
+}
+
+
+/* Footer CSS */
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FCA311;
+    color: #000000;
+    font-size: 16px;
+    
+    border-radius: 0 0 5px 5px;
+}
+
+footer p {
+    margin: 0;
+    padding: 15px;
+}
+.map{
+    width: 40%
+}
+.contact-info{
+    width: 30%;
+}
