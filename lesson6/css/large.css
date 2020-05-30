@@ -1,0 +1,61 @@
+@media (min-width: 1024px) {
+  
+    body {
+        display: flex;
+        flex-direction: column;
+        background-color: #E5E5E5;
+        
+        min-width: 900px;
+        
+        
+    }
+    .today-details{
+        font-size: 14px;
+        padding: 10px;
+        top: 8px;
+    }
+
+    header {
+        padding: 1.5rem;
+        
+            display: flex;
+        
+    }
+
+    header h3 {
+        font-size: 18pt;
+        margin-top: -5px;
+    }
+
+    
+
+    nav {
+        font-size: 18pt;
+    }
+
+    main {
+        font-size: 18pt;
+        max-width: 1024px;
+        align-self: center;
+        background-color: #14213D;
+    }
+
+    footer {
+        min-width:1024px;
+        max-width: 1024px;
+        align-self: center;
+    }
+    iframe{
+        max-width: 400px;
+        
+    }
+    .contact-info{
+        width: 30%;
+        font-size: 12pt;
+    }
+    picture img {
+       
+        max-width: 100%;
+        
+    }
+}
