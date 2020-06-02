@@ -42,9 +42,7 @@ header {
     border-radius: 15px;
     margin-left:25px;
 }
-.today-details p {
-    
-}
+
 
 .today-details img {
     position: relative;
@@ -241,7 +239,7 @@ h2 {
 }
 
 
-/* Footer CSS */
+
 body {
     min-height: 100vh;
     display: grid;
