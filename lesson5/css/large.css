@@ -22,7 +22,15 @@
         margin-top: -5px;
     }
 
-    
+    .map{
+        display: flex;
+        margin-left: 3em;
+        margin-bottom: 2em;
+        margin-top: 1em;
+        border-radius: 5px;
+        
+        
+    }
 
     nav {
         font-size: 18pt;
@@ -40,5 +48,13 @@
         max-width: 900px;
         min-width: 900px;
         align-self: center;
+    }
+    .contact-info{
+        width: 30%;
+        font-size: 14px;
+    }
+    iframe{
+       
+        border: 2px solid black;
     }
 }

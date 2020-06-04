@@ -198,16 +198,16 @@ li:hover {
 
 .contact-info{
 float:right;
-margin-top:2em; 
+margin-top:1em; 
 
 }
 .map{
     display: flex;
-    margin-left: 2em;
+    margin-left: 0.2em;
     margin-bottom: 2em;
-    margin-top: 2em;
+    margin-top: 1em;
     border-radius: 5px;
-    border: 2px solid black;
+    
 }
 
 main{
@@ -257,8 +257,14 @@ footer p {
     padding: 15px;
 }
 .map{
-    width: 40%
+    
+    width: 30%
 }
 .contact-info{
     width: 30%;
+    font-size: 8px;
+}
+iframe{
+    max-width: 200px;
+    border: 2px solid black;
 }
