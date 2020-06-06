@@ -63,11 +63,9 @@ header {
     
     
 }
-picture img {
-    border: 2px solid black;
-    max-width: 98%;
+
     
-}
+
 table{
     background-color: #000000;
 
@@ -162,6 +160,8 @@ nav button {
     border: none;
     color: #000000;
     border: 2px solid black;
+    
+    
 }
 
 #navigation {
@@ -191,13 +191,13 @@ nav ul li a {
 
 nav ul li.active {
     
-    color: #14213D;
+    color: #E5E5E5
 }
 
 li:hover {
-    
+    box-shadow: 0 0 10px black;
     border-radius: 5px ;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .contact-info{
@@ -217,7 +217,7 @@ margin-top:2em;
 
 main{
     position: relative;
-    width: 120%;
+    width: 100%;
     overflow: hidden;
     color: #E5E5E5;
     max-width: 500px;
@@ -270,3 +270,35 @@ iframe{
     max-width: 200px;
     border: 2px solid black;
 }
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 10px; 
+    padding-bottom: 2em;
+}
+
+.pic-img img[data-src] {
+    filter: blur(0.2em);
+    
+  }
+
+ .pic-img img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    max-width: 200px;
+    border-radius: 5px 5px;
+    
+  }
+  figcaption{
+      
+      color:black;
+      font-size: 10px;
+  }
+  .gallery picture{
+    background-color:#E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+
+

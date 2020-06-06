@@ -11,7 +11,7 @@
     }
 
     main{
-        min-width: 575px;
+        min-width: 700px;
         font-size: 12pt;
     }
 
@@ -42,6 +42,14 @@
         font-size: 14pt;
         padding: 1.5rem;
     }
-
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        }
+    figcaption{
+            font-size: 12px;
+        }
+        .pic-img{
+            max-width: 250px;
+        }
 }
     
