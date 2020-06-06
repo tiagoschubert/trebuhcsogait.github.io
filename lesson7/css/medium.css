@@ -11,7 +11,7 @@
     }
 
     main{
-        min-width: 700px;
+        min-width: 550px;
         font-size: 12pt;
     }
 
@@ -44,12 +44,12 @@
     }
     .gallery {
         grid-template-columns: 1fr 1fr;
-        }
+    }
     figcaption{
-            font-size: 12px;
-        }
-        .pic-img{
-            max-width: 250px;
-        }
+        font-size: 12px;
+    }
+    .pic-img{
+        max-width: 250px;
+    }
 }
     

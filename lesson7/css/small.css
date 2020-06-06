@@ -276,6 +276,7 @@ iframe{
     justify-items: center;
     grid-gap: 10px; 
     padding-bottom: 2em;
+    
 }
 
 .pic-img img[data-src] {

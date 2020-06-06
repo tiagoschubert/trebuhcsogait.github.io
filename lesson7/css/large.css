@@ -17,8 +17,7 @@
 
     header {
         padding: 1.5rem;
-        
-            display: flex;
+        display: flex;
         
     }
 
@@ -58,6 +57,8 @@
         max-width: 1024px;
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
+        grid-gap: 35px 25px;
+        
         
     }
  
