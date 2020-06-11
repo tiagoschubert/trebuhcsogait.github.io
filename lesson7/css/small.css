@@ -142,12 +142,12 @@ header h1, h3 {
 
 .sitename{
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
 }
 nav {
     background-color: #E5E5E5;
     margin: 0;
-    border-radius: 0 0 5px 5px;
+    
     font-family: 'Merriweather', sans-serif, serif;
     font-size: 18px;
     
@@ -259,7 +259,7 @@ footer {
     color: #000000;
     font-size: 16px;
     
-    border-radius: 0 0 5px 5px;
+    
 }
 
 footer p {
