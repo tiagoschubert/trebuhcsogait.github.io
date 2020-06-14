@@ -1,0 +1,83 @@
+@media (min-width: 1024px) {
+  
+    body {
+        display: flex;
+        flex-direction: column;
+        background-color: #E5E5E5;
+        
+        min-width: 900px;
+        
+        
+    }
+    .today-details{
+        font-size: 14px;
+        padding: 10px;
+        top: 8px;
+    }
+
+    header {
+       
+        display: flex;
+        
+    }
+
+    header h3 {
+        font-size: 18pt;
+        margin-top: -5px;
+    }
+
+    
+
+    nav {
+        font-size: 18pt;
+    }
+
+    main {
+        font-size: 18pt;
+        max-width: 1024px;
+        align-self: center;
+        background-color: #14213D;
+    }
+
+    footer {
+        min-width:1024px;
+        max-width: 1024px;
+        align-self: center;
+    }
+    iframe{
+        max-width: 400px;
+        
+    }
+    .contact-info{
+        width: 30%;
+        font-size: 12pt;
+    }
+    
+    .gallery{
+        max-width: 1024px;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        grid-gap: 35px 25px;
+        
+        
+    }
+ 
+    .gallery :hover{
+         box-shadow: 0 0 10px
+         rgba(252, 250, 250, 0.5);
+     }
+    .pic-img img{
+         max-width: 250px;
+     }
+     figcaption{
+        font-size: 14px;
+        
+        
+    }
+    .help{
+        padding-top:200px;
+        padding-bottom: 200px;
+        width: 1024px;
+      }
+      
+}

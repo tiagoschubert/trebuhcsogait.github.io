@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cleenday -  WDD230</title>
+        <meta name="description" content="Preston Town Page of Weather Website">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link  rel="stylesheet" href="css/small.css">
+        <link  rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css" >
+    </head>
+
+    <body>
+
+        <header class="page-header">
+            <div class="icon-logo"> <img src="images/cleen.png" alt="sun Logo"></div>
+       
+                <div class=sitename>Cleenday weather</div>
+                <h4>The Weather is here</h4>
+        
+        </header>
+        <nav>
+        <button class="ham" onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="navigation" class="response">
+                <li><a href="#">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li class="active"><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+        </nav>
+        <main>
+            <div class="regular">
+            <h2>Storm Center</h2>
+            
+            <form method="GET" action="soon.html">
+                <fieldset>
+                    <legend>
+                    Reporter's Information: 
+                    </legend>
+                    <label class="top">Name:*</label>
+                    <input type="text" name="name" placeholder="Full Name" pattern="[A-Za-z].{5,}" required>
+
+                    <label class="top">Email:</label>
+                    <input type="email" name="email" placeholder="email@email.com">
+
+                    <label class="top">Phone Number:</label>
+                    <input type="tel" name="phone" placeholder="000000000" required>
+
+                    <label class="top">Zip Code:*</label>
+                    <input type="number" name="zip" placeholder="Zip Code" required>
+
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Storm Information:
+                    </legend>
+                    <label class="top">Storm Date: </label><input type="date" name="completeDate">
+                    <label class="top">Storm Type:</label>
+                    <input type="text" list="stormtypes"> 
+                    
+                        <datalist id="stormtypes">
+                            <option value ="Flash flood">
+                            <option value ="Hail">
+                            <option value ="Hurricane">
+                            <option value ="Thunderstorm">
+                            <option value ="Tornado"> 
+                        </datalist>
+    
+                    <label class="top">Storm Severity = <span id="ratingvalue">5</span> / 10
+                    </label>
+                        <input id="severity" type="range" name="range" value="5" min="0" max="10" list="marks"
+                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"> 
+                    
+                    <datalist id="marks">
+                            <option value= "0">
+                            <option value= "1">
+                            <option value= "2">
+                            <option value= "3">
+                            <option value= "4">
+                            <option value= "5">
+                            <option value= "6">
+                            <option value= "7">
+                            <option value= "8">
+                            <option value= "9">
+                            <option value= "10">
+                    </datalist>
+    
+                    <label class="top">Storm Region:
+                        <select name="region">
+                            <option value= "" selected disabled>Select city</option>
+                            <option value= "fish haven">Fish Haven</option>
+                            <option value= "preston">Preston</option>
+                            <option value= "soda spring">Soda Springs</option>
+                        </select>
+                    </label>
+            </fieldset>    
+            <fieldset>
+                <legend>Danger Level</legend>
+                    <div>Are you in Danger?</div> 
+                    <label class="danger-label">No<input type="radio" name="danger" value="no"> </label>
+                    <label class="danger-label"> Yes<input type="radio" name="danger" value="yes"></label>
+                    <label class="danger-label">Maybe<input type="radio" name="danger" value="maybe"> </label>
+                
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Additional Information
+                </legend>
+                 <textarea name="comment"></textarea>
+                </fieldset>
+                <input type="submit" value="Report Storm" class="submitBtn">
+            </form>
+        </div>
+        </main>
+        <footer>
+            <p>&copy;<span id="year">The Weather is here</span> | Tiago Schubert | Arkansas | </p>
+            <p><span id=".date"></span></p>
+        </footer>
+
+        <script src="js/index.js"></script>
+        <script src="js/windChill.js"></script>
+
+    </body>
+</html>
