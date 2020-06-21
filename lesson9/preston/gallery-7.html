@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cleenday -  WDD230</title>
+        <meta name="description" content="Preston Town Page of Weather Website">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link  rel="stylesheet" href="css/small.css">
+        <link  rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css" >
+    </head>
+
+    <body>
+
+        <header class="page-header">
+            <div class="icon-logo"> <img src="images/cleen.png" alt="sun Logo"></div>
+       
+                <div class=sitename>Cleenday weather</div>
+                <h4>The Weather is here</h4>
+        
+        </header>
+        <nav>
+        <button class="ham" onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="navigation" class="response">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li class="active"><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+        </nav>
+        <main>
+            <h1>Gallery</h1>
+            <div class="gallery">
+                
+            <picture class="pic-img">
+                <img src="images/place-holder.png" data-src="images/arco.png" alt="Rainbow and Preston river" />
+                <figcaption>  Rainbow in Soda Springs  </figcaption> 
+            </picture>
+            
+            <picture class="pic-img">
+                <img src="images/place-holder.png" data-src="images/arcoiris.png" alt="rainbow crossing  Preston River" />
+               <figcaption>  Rainbow in Preston  </figcaption>   
+            </picture>
+            <picture class="pic-img">
+                <img src="images/place-holder.png" data-src="images/storms.png" alt="Black clouds and a big storm" />
+                <figcaption>  A big storm in Preston  </figcaption>
+            </picture>
+            <picture class="pic-img">
+                <img src="images/place-holder.png" data-src="images/snow.png" alt="threes and snow" />
+                <figcaption>  Snow in Soda Springs  </figcaption>
+            </picture>
+            <picture class="pic-img">
+                <img src="images/place-holder.png" data-src="images/storm.png" alt="lightning" />
+                <figcaption> Storm in Soda Springs  </figcaption>
+            </picture>
+            <picture class="pic-img">
+                <img src="images/place-holder.png" data-src="images/tornado.png" alt="tornado in preston" />
+                <figcaption>  Tornado in Preston  </figcaption>
+            </picture>
+            <picture class="pic-img">
+                <img src="images/place-holder.png" data-src="images/rain.png" alt="rain" />
+                <figcaption>  Rain in Soda Springs  </figcaption>
+            </picture>
+            <picture class="pic-img">
+                <img src="images/place-holder.png" data-src="images/clouds.png" alt="cloudy day" />
+                <figcaption>  Clouds in Preston  </figcaption>
+            </picture>
+            <picture class="pic-img">
+                <img src="images/place-holder.png" data-src="images/dry.png" alt="fog day in Preston" />
+                <figcaption>  Fog day in Preston  </figcaption>
+            </picture>
+        </div>
+    </main>
+    <footer>
+            <p>&copy;<span id="year">The Weather is here</span> | Tiago Schubert | Arkansas | </p>
+            <p><span id=".date"></span></p>
+    </footer>
+
+        <script src="js/index.js"></script>
+        <script src="js/windChill.js"></script>
+
+    </body>
+</html>
