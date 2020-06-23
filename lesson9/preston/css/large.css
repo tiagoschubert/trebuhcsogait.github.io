@@ -79,6 +79,14 @@
         padding-bottom: 200px;
         width: 1024px;
       }
+      .cards section{
+          width: 30%;
+        
+    }
+    nav ul li a{
+        color: black;
+        font-size: 18px;
+    }
       
       
 }

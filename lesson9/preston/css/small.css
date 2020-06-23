@@ -146,9 +146,8 @@ header h1, h3 {
     font-size: 3em;
 }
 nav {
-    background-color: #E5E5E5;
+    background-color: #E5E5E5; 
     margin: 0;
-    
     font-family: 'Merriweather', sans-serif, serif;
     font-size: 18px;
     
@@ -181,7 +180,6 @@ nav li {
     margin-left: 2%;
     text-align: left;
     text-decoration: none;
-    color: #F3E9D2;
     border-top: 1px solid rgba(17, 75, 95, 0.5 );
     border-radius: 5px ;
     border: 2px solid transparent;
@@ -190,12 +188,15 @@ nav li {
 nav ul li a {
     color: #000000;
     text-decoration: none;
+    font-size: 14px;
+    
 }
 
 nav ul li.active {
     box-shadow: 0 0 10px black;
     border-radius: 5px ;
     border: 1px solid black;
+    background-color: #FCA311;
     
     color: #E5E5E5
 }
@@ -203,12 +204,12 @@ nav ul li.active {
 li:hover {
     box-shadow: 0 0 10px black;
     border-radius: 5px ;
-    border: 1px solid black;
+    background-color: #FCA311;
 }
 
 .contact-info{
-float:right;
-margin-top:2em; 
+    float:right;
+    margin-top:2em; 
 
 }
 .map{
@@ -379,12 +380,14 @@ iframe{
 .cards section{
     background-color: #E5E5E5;
     border-radius: 10px 10px 10px 10px;
-    width: 30%;
+    
     padding: 5px;
     margin: 10px;
     
 }
-
+.navigation{
+    background-color: #E5E5E5;
+}
 .cards img {
     width: 100%;
     border-radius: 10px 10px 10px 10px;
@@ -396,12 +399,19 @@ section:nth-child(3) img {
 .wireframes{
     display: flex;
     list-style: none;
+    margin-bottom: 10px;
+    
+    
+    
+}
+.wireframes :hover{
+    background-color: #FCA311;
     
 }
 .wireframes a{
     background-color: #E5E5E5;
     border-radius: 5px ;
-    border: 2px solid transparent;
+    
     margin: 10px;
     margin-bottom: 50px;
     text-align: center;
@@ -410,6 +420,7 @@ section:nth-child(3) img {
     padding: 2px;
     
 }
+
 
 
 

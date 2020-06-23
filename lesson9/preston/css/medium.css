@@ -60,5 +60,10 @@
        margin: auto;
         
     }
+    nav ul li a {
+        color:black;
+       
+    }
+    
 }
     

@@ -83,6 +83,7 @@ fetch(requestURL)
 
 
       img.setAttribute('src', 'https://loremflickr.com/320/240/barn');
+      
       img.setAttribute('alt', hIIII);
 
       card.appendChild(texts)
