@@ -81,7 +81,6 @@ fetch(requestURL)
       founded.textContent = "Year Founded: " + towns[i].yearFounded;
       rain.textContent= "Rainfall: " + towns[i].averageRainfall;
 
-
       img.setAttribute('src', 'https://loremflickr.com/320/240/barn');
       
       img.setAttribute('alt', hIIII);
