@@ -85,8 +85,13 @@
     }
     nav ul li a{
         color: black;
-        font-size: 18px;
+        font-size: 1em;
     }
-      
+    .cards section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        
+    }  
       
 }

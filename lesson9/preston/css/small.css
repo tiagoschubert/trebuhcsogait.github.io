@@ -393,9 +393,7 @@ iframe{
     border-radius: 10px 10px 10px 10px;
     
 }
-section:nth-child(3) img {
-    margin-top: -6px;
-}
+
 .wireframes{
     display: flex;
     list-style: none;
