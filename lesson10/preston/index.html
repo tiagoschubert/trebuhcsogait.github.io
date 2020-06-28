@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleenday -  WDD230</title>
+    <meta name="description" content="Preston Town Page of Weather Website">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link  rel="stylesheet" href="css/small.css">
+    <link  rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css" >
+</head>
+
+<body>
+
+    <header class="page-header">
+            <div class="icon-logo"> <img src="images/cleen.png" alt="sun logo"></div>
+       
+                <div class=sitename>Cleenday weather</div>
+                <h4>The Weather is here</h4>
+        
+    </header>
+    <nav>
+        <button class="ham" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="response">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li ><a href="preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+        <h2>Home</h2>
+        <div class="cards"></div>
+
+        
+        
+        <div class="wireframes">
+            Wireframes:
+            <li><a href="images/small.png">Small</a></li>
+            <li><a href="images/medium.png">Medium</a></li>
+            <li><a href="images/big.png">Big</a></li>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year">The Weather is here</span> | Tiago Schubert | Arkansas | </p>
+        <p><span id=".date"></span></p>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="js/windChill.js"></script>
+
+</body>
+</html>

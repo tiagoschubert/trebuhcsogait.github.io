@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleenday -  WDD230</title>
+    <meta name="description" content="Preston Town Page of Weather Website">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link  rel="stylesheet" href="css/small.css">
+    <link  rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css" >
+</head>
+
+<body>
+
+    <header class="page-header">
+            <div class="icon-logo"> <img src="images/cleen.png" alt="sun logo"></div>
+       
+                <div class=sitename>Cleenday weather</div>
+                <h4>The Weather is here</h4>
+        
+    </header>
+    <nav>
+        <button class="ham" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="response">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="contentbox">
+            <div class="main-div today-weather">
+                    <picture>
+                            <source media="(max-width: 600px)" srcset="images/preston500px.jpg ">
+                            <source media="(max-width: 800px)" srcset="images/preston700px.jpg ">
+                            <img src="images/preston900px.jpg" alt="Montains, grass, clouds and sun">
+                    </picture>
+                <div class="today-details">
+                        <div>Currently: Sunny</div>
+                        <div >Temperature: <span id="Temperature"></span></div>
+                        <div >Humidity: <span id="Humidity"></span></div>
+                        <div >Wind Speed: <span id="WindSpeed"></span></div>
+                        <div >Wind Chill: <span id="WindChill"></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="contentbox">
+            <div class="main-div forecast5">
+                <div class="forecast">
+                        <h2>5 days forecast</h2>
+                    <table>
+                            
+                        
+                            <tr>
+                                <th><span id='day1'></span></th>
+                                <th><span id='day2'></span></th>
+                                <th><span id='day3'></span></th>
+                                <th><span id='day4'></span></th>
+                                <th><span id='day5'></span></th>
+                            </tr>
+                            <tr>
+                                <td> 
+                                    <img id="image1" src="#" alt="icon1">
+                                    <p><span id="numb-forecast1"></span>°F</p>
+                                </td>
+                                <td>
+                                    <img id="image2" src="#" alt="icon2">
+                                    <p><span id="numb-forecast2"></span>°F</p>
+                                </td>
+                                <td>
+                                    <img id="image3" src="#" alt="icon3">
+                                    <p><span id="numb-forecast3"></span>°F</p>
+                                </td>
+                                <td>
+                                    <img id="image4" src="#" alt="icon4">
+                                    <p><span id="numb-forecast4"></span>°F</p>
+                                </td>
+                                <td>
+                                    <img id="image5" src="#" alt="icon5">
+                                    <p><span id="numb-forecast5"></span>°F</p>
+                                </td>
+                            </tr> 
+                        
+                    </table>
+                    </div>
+    
+                </div>
+            </div>
+        
+        <div class="contentbox">
+            <div class="main-div article">
+                <article>
+                    <h3>The 10 Best Hiking Spots in Preston</h3>
+                    <p>by author</p>
+                    <img src="images/hiki.jpg" alt="path to a hike">
+                    <div class="article-p">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Consequat interdum
+                              varius sit amet mattis vulputate enim. Viverra justo nec ultrices dui. 
+                              At imperdiet dui accumsan sit amet nulla facilisi morbi tempus.
+                               Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo.
+                                Lorem ipsum dolor sit amet consectetur. Auctor eu augue ut lectus 
+                                arcu bibendum. Id neque aliquam vestibulum morbi blandit cursus risus at ultrices. 
+                                Lectus quam id leo in vitae turpis massa sed elementum. Facilisis magna etiam tempor orci eu lobortis.
+                                 Dictum sit amet justo donec enim diam vulputate ut pharetra. 
+                                 </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Consequat interdum varius sit amet mattis vulputate enim. Viverra justo nec ultrices dui. 
+                            At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Sagittis nisl 
+                            rhoncus mattis rhoncus urna neque viverra justo. Lorem ipsum dolor sit amet consectetur. 
+                            Auctor eu augue ut lectus arcu bibendum. Id neque aliquam vestibulum morbi blandit cursus risus at ultrices. 
+                            Lectus quam id leo in vitae turpis massa sed elementum. Facilisis magna etiam tempor orci eu lobortis. 
+                            Dictum sit amet justo donec enim diam vulputate ut pharetra. </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="contentbox">
+                <div class="main-div end-box">
+                        <div class="contact-info">
+                            <h3>Contact information:</h3>
+                            <p>1111 E. Random Rd.
+
+                                   <br> Preston, Idaho</p>
+                            <p>Phone: 123.456.7890</p>
+                            <p>Email: contact@cleen.com</p>
+                        </div>
+                        <div class="map">
+                            <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.7748476038!2d-111.91534427025724!3d42.09974029544806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e0!3m2!1sen!2sus!4v1552081170669"
+                                      allowfullscreen ></iframe>
+                        </div>
+                    </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year">The Weather is here</span> | Tiago Schubert | Arkansas | </p>
+        <p><span id=".date"></span></p>
+    </footer>
+    <script src="js/index.js"></script>
+  <script src="js/windChill.js"></script>  
+    <script src="js/wheather-forecast.js"></script>
+
+</body>
+</html>
