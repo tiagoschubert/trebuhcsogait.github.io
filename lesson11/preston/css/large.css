@@ -10,21 +10,14 @@
         
     }
     .today-details{
-        font-size: 14px;
+        margin-top:6em;
         padding: 10px;
-        top: 8px;
-    }
-
-    header {
-       
-        display: flex;
         
     }
 
-    header h3 {
-        font-size: 18pt;
-        margin-top: -5px;
-    }
+    
+
+   
 
     
 
@@ -51,14 +44,25 @@
     .contact-info{
         width: 30%;
         font-size: 12pt;
+        margin: 2em;
     }
-    
+    article img{
+        float: right;
+        max-width: 30%;
+    }
+
     .gallery{
         max-width: 1024px;
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
         grid-gap: 35px 25px;
         
+        
+    }
+    .end-box{
+        display:flex;
+        flex-direction: row;
+        margin-left: 150px;
         
     }
  
@@ -93,5 +97,6 @@
         grid-template-rows: 1fr;
         
     }  
+    
       
 }

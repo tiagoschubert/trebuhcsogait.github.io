@@ -1,5 +1,5 @@
-// PRESTON CURRENT WEATHER
-var apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=f82892a0a3a767ffe4875439f1ca5a0d&units=imperial';
+// SODA CURRENT WEATHER
+var apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&APPID=f82892a0a3a767ffe4875439f1ca5a0d&units=imperial';
 
 var weatherReq = new XMLHttpRequest();
 weatherReq.open('GET', apiURL, true);
@@ -17,8 +17,42 @@ weatherReq.onload = function () {
      document.getElementById("WindChill").innerHTML = windChill.toFixed(1) + "&#8457";
 }
 
-// PRESTON FORECAST
-var forecastRequestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=f82892a0a3a767ffe4875439f1ca5a0d&units=imperial';
+// SODA SPRINGS EVENTS 
+let city = "Soda Springs";
+const URL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(URL)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(jsonObject) {
+
+        const towns = jsonObject['towns'];
+        towns.forEach(town => {
+            if (town.name == city) {
+                const events = town.events;
+                let div = document.createElement('div');
+                let h2 = document.createElement('h2');
+                let hr = document.createElement('hr');
+                h2.innerHTML = `Upcoming Events: `;
+
+                div.appendChild(h2);
+                div.appendChild(hr);
+
+                events.forEach(event => {
+                    let p = document.createElement('p');
+                    p.textContent = event;
+                    div.appendChild(p);
+                });
+                document.getElementById('events').appendChild(div);
+            }
+        });
+    });
+
+
+ 
+//  FORECAST
+var forecastRequestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=f82892a0a3a767ffe4875439f1ca5a0d&units=imperial';
 fetch(forecastRequestURL)
     .then((response) => response.json())
 
