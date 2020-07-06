@@ -43,7 +43,7 @@ fetch(forecastRequestURL)
             i++;
         })
     });
-    // PRESTON EVENTS 
+    // PRESTON EVENTS  
 let city = "Preston";
 const URL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
@@ -55,6 +55,7 @@ fetch(URL)
 
         const towns = jsonObject['towns'];
         towns.forEach(town => {
+
             if (town.name == city) {
                 const events = town.events;
                 let div = document.createElement('div');
@@ -67,8 +68,10 @@ fetch(URL)
 
                 events.forEach(event => {
                     let p = document.createElement('p');
+
                     p.textContent = event;
                     div.appendChild(p);
+
                 });
                 document.getElementById('events').appendChild(div);
             }
