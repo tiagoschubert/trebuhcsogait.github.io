@@ -8,6 +8,7 @@ fetch(requestURL)
 //console.table(jsonObject);
   const rentals = jsonObject['rentals'];
 
+  
   rentals.forEach(rentals => {
     let card = document.createElement('tr');
     let td1 = document.createElement('td');
