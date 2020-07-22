@@ -1,0 +1,85 @@
+{
+    "rentals": [
+      {
+        "renttype": "Honda Metro Scooter",//rentaltyp
+        "max": 1,//maxpersons
+        "reservation": [
+          { "half": 20 },//halfday
+          { "full": 30 }//fullday
+        ],
+        "walkin": [
+          { "half": 25 },
+          { "full": 35 }
+        ],
+        "photo": "hondametro.png"
+      },
+
+      {
+        "renttype": "Honda PCX150 Scooter",
+        "max": 2,
+        "reservation": [
+          { "half": 40 },
+          { "full": 50 }
+        ],
+        "walkin": [
+          { "half": 45 },
+          { "full": 55 }
+        ],
+        "photo": "hondapc.png"
+      },
+      {
+        "renttype": "Honda Dio Scooter",
+        "max": 2,
+        "reservation": [
+          { "half": 30 },
+          { "full": 40 }
+        ],
+        "walkin": [
+          { "half": 35 },
+          { "full": 45 }
+        ],
+        "photo": "hondadio.png"
+      },
+      
+      {
+        "renttype": "Honda Pioneer ATV",
+        "max": 4,
+        "reservation": [
+          { "half": 50 },
+          { "full": 70 }
+        ],
+        "walkin": [
+          { "half": 60 },
+          { "full": 80 }
+        ],
+        "photo": "hondapio.png"
+      },
+      {
+        "renttype": "Jeep Wrangler - 2 door",
+        "max": 4,
+        "reservation": [
+          { "half": 60 },
+          { "full": 85 }
+        ],
+        "walkin": [
+          { "half": 70 },
+          { "full": 90 }
+        ],
+        "photo": "jeep2.png"
+      },
+      {
+        "renttype": "Jeep Wrangler - 4 door with a/c",
+        "max": 5,
+        "reservation": [
+          { "half": 70 },
+          { "full": 100 }
+        ],
+        "walkin": [
+          { "half": 85 },
+          { "full": 125 }
+        ],
+        "photo": "jeep1.png"
+      }
+      
+    ]
+  }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cozumel Scoots -  WDD230</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    
+    
+</head>
+
+<body>
+<header >
+    
+    <div class="logo"><a href="index.html"><img alt="website logo" src="images/logo.png"></a></div>
+    <div class="sitename">Cozumel Scoots</div>
+    
+</header>
+<nav class="clearfix">
+    <button class="ham" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="response">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li class="active"><a href="reservations.html">Reservations</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<main >
+    <div class="rersev-div">
+    <section class="index-section">
+        <h1>reservation</h1>
+        <form method="get" action="confirmation.html">
+                <fieldset>
+                    
+                    <label class="top">Full Name* <input type="text" name="fullName" required pattern="[A-z\s]{5,}"
+                            placeholder="Full Name"></label>
+                            <br>
+                    <label class="top">Email:
+                        <input type="email" name="email" required placeholder="user@email.org"></label>
+                        <br>
+                    <label class="top">Phone number:
+                        <input type="tel" name="phone" required placeholder="###-###-####">
+                    </label>
+                    <br>
+                    <label class="top">Date <input type="date" name="date"></label>
+                    <br>
+                    <label class="top">Cruise Line (if applicable)
+                        <input type="text" name="cruiseLine">
+                    </label>
+                    <br>
+                    <label class="top">Period
+                        <input type="text" name="period">
+                    </label>
+                    <br>
+                    <label class="top">Number
+                        <input type="text" name="number">
+                    </label>
+                    <br>
+                    <label class="top">Rental Type
+                        <input type="text" name="rentalType" list="rentalType">
+                        <datalist id="rental">
+                            <option value="Honda Metro Scooter">
+                            <option value="Honda Dio Scooter">
+                            <option value="Honda PCX150 Scooter">
+                            <option value="Honda Pioneer ATV">
+                            <option value="Jeep Wrangler - 4 door with a/c">
+                            <option value="Jeep Wrangler - 2 door">
+                        </datalist>
+                    </label>
+                    <br>
+                    <label class="top">Home state / Country
+                        <select name="country">
+                            <option value="">Select Region &#9662;</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="Latin America">Latin America</option>
+                            <option value="Europe">Europe</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </label>
+                    <br>
+                    <label class="top">Special accommodations / Comments
+                        <br>
+                        <textarea name="textArea"  placeholder="Location of a drop-off request"></textarea>
+                    </label>
+                </fieldset>
+    
+                <input type="submit" name="button" value="Reserve" class="submitBtn">
+            </form>
+        
+    </section>
+    <div class="requeriments">
+            <h3>Reservation Requirements</h3>
+            <ul>
+                <li>A valid driver's license is required in hand at time of rental.</li>
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel Charge not included.</li>
+                <li>Unlimited mileage</li>
+                <li>Liability insurance is free of charge.</li>
+                <li>Reservations rate requires 24 hours prior notice.</li>
+                <li>Free Delivery to Cozumel hotels, Airbnb, or private residence for 2+ day rentals.</li>
+            </ul>
+    </div></div>
+</main>
+<footer >
+    <p>&copy; <span id="updated"></span> | Tiago Schubert | Arkansas | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></p>
+</footer>
+
+</body>
+
+</html>

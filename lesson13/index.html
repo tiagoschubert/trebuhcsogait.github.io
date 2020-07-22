@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cozumel Scoots -  WDD230</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    
+    
+</head>
+
+<body>
+<header >
+    
+    <div class="logo"><a href="index.html"><img alt="website logo" src="images/logo.png"></a></div>
+    <div class="sitename">Cozumel Scoots</div>
+    
+</header>
+<nav class="clearfix">
+    <button class="ham" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="response">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<main >
+    <br>
+     
+    <div class="banner-index">
+            <picture>
+                    <source media="(max-width: 700px)" srcset="images/smallban.jpg ">
+                    <source media="(max-width: 900px)" srcset="images/mediumban.jpg ">
+                    <img src="images/bigban.png" alt="Montains, grass, clouds and sun">
+            </picture>
+        </div>
+    
+        <div class="type-rental">   
+                <h2> Type of Rentals</h2>
+                    <ul>
+                        <li>Honda Motor Scooters</li>
+                        <li> Honda Metropolitan (49cc) - 1 person </li>
+                        <li> Honda Dio (110cc) - 2 person </li>
+                        <li> Honda PCX150 (149cc) - 2 person </li>
+                        <li>ATV Side-by-Side
+                            <ul>
+                                <li>Honda Pioneer 1000</li>
+                            </ul>
+                        </li>
+                        <li>Jeep Rentals
+                            <ul>
+                                <li>4-door Jeep Wrangler - manual with A/C - 5 people max </li>
+                                <li>2-door Jeep Wrangler - open air - manual - 4 people max</li>
+                            </ul>
+                        </li>
+                    </ul>
+            </div>
+                <div class="weather-tab">  
+                    <div class="today-details">
+                        <div class="title">Weather Summary</div><br>
+                        <div>Currently: Sunny</div>
+                        <div>Temperature: <span id="Temperature"></span></div>
+                        <div>Humidity: <span id="Humidity"></span></div>
+                        
+                    </div>
+                    <h2>Next 5 Days:</h2>
+                    <table>
+                            <tr>
+                                <th><span id='day1'></span></th>
+                                <th><span id='day2'></span></th>
+                                <th><span id='day3'></span></th>
+                                <th><span id='day4'></span></th>
+                                <th><span id='day5'></span></th>
+                            </tr>
+                            <tr>
+                                <td> 
+                                    <img id="image1" src="#" alt="icon1">
+                                    <p><span id="numb-forecast1"></span>°F</p>
+                                </td>
+                                <td>
+                                    <img id="image2" src="#" alt="icon2">
+                                    <p><span id="numb-forecast2"></span>°F</p>
+                                </td>
+                                <td>
+                                    <img id="image3" src="#" alt="icon3">
+                                    <p><span id="numb-forecast3"></span>°F</p>
+                                </td>
+                                <td>
+                                    <img id="image4" src="#" alt="icon4">
+                                    <p><span id="numb-forecast4"></span>°F</p>
+                                </td>
+                                <td>
+                                    <img id="image5" src="#" alt="icon5">
+                                    <p><span id="numb-forecast5"></span>°F</p>
+                                </td>
+                            </tr> 
+                    </table>
+                </div>
+                <div class="calling">
+                    
+                    <a href="reservations.html">  
+                        <picture class="pic-img">
+                            <img src="images/place-holder.png" data-src="images/frontscooter.jpg" alt="scooter" />
+                    
+                        </picture></a>
+                        
+                    <a href="reservations.html">
+                        <picture class="pic-img">
+                            <img src="images/place-holder.png" data-src="images/frontjeep.jpg" alt="jeep" />
+                        </picture></a>
+                    
+                    <a href="reservations.html"> 
+                        <picture class="pic-img">
+                            <img src="images/place-holder.png" data-src="images/atv.jpg" alt="atv-side-by-side" />
+                        </picture></a>
+                    
+                </div> 
+                <div class="index-contact">
+                <h1>Contact Us</h1>
+                <div class="contact">
+               
+                        <p>
+                            R. Cozumel,1 , Mexico 99999 <br>
+                            123.456.789 <br>
+                            reservations@cozumelscoots.com <br>
+                            <br> 
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.742790701428!2d-86.97723018507656!3d20.475754786300563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xec697a2a774f7a00!2sTerminal%20Puerta%20Maya!5e0!3m2!1ses-419!2smx!4v1595029194319!5m2!1ses-419!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </p>
+                        
+                        <p>
+                            R. Cozumel,2 , Mexico 99998 <br>
+                            123.456.788 <br>
+                            reservations@cozumelscoots.com <br>
+                            <br>
+        
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.8592003811805!2d-86.95296768507596!3d20.511997386280616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cf3a0ece15%3A0x9216e3c2b55e5526!2sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock!5e0!3m2!1ses-419!2smx!4v1595029125220!5m2!1ses-419!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                    <br>
+                            
+                        </p>
+        
+                </div></div>
+
+</main>
+<footer >
+    
+   <a href="http://www.instagram.com"> <img src="images/insta.png" alt="logo instagram" style="width: 30px;"></a>
+   <p>@cozumelscoots<p>
+    
+    <p>&copy; <span id="updated"></span> | Tiago Schubert | Arkansas | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+
+</html>
