@@ -629,6 +629,9 @@ main .info {
 main .info div {
   padding: 20px;
 }
+main .form-contact {
+  margin: auto;
+}
 
 footer {
   background-color: #B8F2E6;
