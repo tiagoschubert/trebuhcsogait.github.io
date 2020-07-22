@@ -465,54 +465,51 @@ main {
     font-family: "Piedra", cursive; }
   main h2 {
     font-family: "Piedra", cursive; }
-  main .index-section input {
-    margin: 10px; }
+  main .index-section .submitBtn {
+    margin-top: 10px; }
+  main .index-section h1 {
+    text-align: center; }
   main figure {
     margin: 0;
     width: 100%; }
     main figure img {
       width: 100%; }
   main .weather-tab {
-    background-color: #AED9E0;
-    opacity: 0.85;
-    padding: 20px;
-    position: absolute;
-    top: 14em;
-    right: 14%; }
-    main .weather-tab .title {
-      font-size: 2em;
-      font-family: "Piedra", cursive; }
+    display: none; }
   main figcaption {
     text-align: center;
     font-size: .8rem; }
   main .calling {
     display: flex;
-    margin-top: 2em; }
+    flex-direction: column;
+    margin-top: 2em;
+    width: auto;
+    margin-bottom: 20px; }
     main .calling h2 {
       font-size: 0.8;
       color: #AED9E0; }
   main .pic-img {
-    padding: 20px; }
+    padding: 40px; }
   main .banner-index {
     padding: none; }
   main .type-rental {
     padding: 2em; }
   main .index-contact {
-    padding: 20px;
+    padding-top: 20px;
     text-align: center;
-    background-color: #AED9E0;
-    margin-top: 10px; }
+    background-color: #AED9E0; }
+    main .index-contact iframe {
+      width: 80%; }
   main .contact {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-items: center;
-    margin: auto;
-    padding: 2em; }
+    margin: auto; }
     main .contact p {
       padding: 2em; }
   main .rersev-div {
     display: flex;
-    flex-direction: row; }
+    flex-direction: column; }
     main .rersev-div h1 {
       text-align: center; }
   main .requeriments {
@@ -545,6 +542,7 @@ main {
         background-color: #B8F2E6; }
   main .info {
     display: flex;
+    flex-direction: column;
     margin: auto; }
     main .info div {
       padding: 20px; }
@@ -589,6 +587,18 @@ footer {
     margin-left: 2%;
     padding-bottom: .5rem; }
 
+  main .calling {
+    display: flex;
+    flex-direction: row; }
+
+  main .contact {
+    display: flex;
+    flex-direction: row; }
+
+  main .rersev-div {
+    display: flex;
+    flex-direction: row; }
+
   div.news {
     clear: both;
     column-count: 2;
@@ -611,6 +621,13 @@ footer {
   main figure {
     width: 31%; }
 
+  main .info {
+    display: flex;
+    flex-direction: row; }
+
+  main .contact {
+    margin-left: 150px; }
+
   div.news {
     column-count: 3; }
 
@@ -618,5 +635,21 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    grid-gap: 35px 25px; } }
+    grid-gap: 35px 25px; }
+
+  main .weather-tab {
+    background-color: #AED9E0;
+    opacity: 0.85;
+    padding: 20px;
+    position: absolute;
+    top: 14em;
+    right: 14%; }
+    main .weather-tab .title {
+      font-size: 2em;
+      font-family: "Piedra", cursive; }
+
+  .index-contact {
+    margin-left: 3em; }
+    .index-contact iframe {
+      width: 300px; } }
 /* end of media query */

@@ -2,10 +2,7 @@ var year = new Date();
 
 document.getElementById("updated").innerHTML = year.getFullYear();
 
-// hamburguer menu
-function toggleMenu() {
-    document.getElementById("navigation").classList.toggle("response");
-}
+
 // PRESTON CURRENT WEATHER
 var apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=3530103&APPID=f82892a0a3a767ffe4875439f1ca5a0d&units=imperial';
 

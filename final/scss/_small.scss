@@ -68,43 +68,36 @@ nav {background-color: #FAF3DD;
 
 main{display: block; padding: 1rem $gutter;
     background-color: none;color: #5E6472;
- h1 {color: #5E6472;
-font-weight: $heavyWeight;
-font-family: $piedra;}
- h2{font-family: $piedra;}//end h2
+    h1 {color: #5E6472;
+    font-weight: $heavyWeight;
+    font-family: $piedra;}
+    h2{font-family: $piedra;}//end h2
 
- .index-section input{
-    margin:10px;
+    .index-section {
+     .submitBtn{
+    margin-top:10px;}
+    h1{text-align: center;}
     
-}
+
+    }
  
- figure{
+    figure{
     margin: 0;
     width: 100%;
     img {width: 100%;}
     
-} //end figure
+    } //end figure
 
- .weather-tab{
-    background-color: #AED9E0; 
-    opacity: 0.85;
-    padding: 20px;
-    position: absolute;
-    top: 14em;
-    right: 14%;
-    
-    .title{
-        font-size: 2em;
-        font-family: $piedra;
-        
-        }
-    }   
+    .weather-tab{display:none;}
 
     figcaption {text-align: center; font-size: .8rem;}
     
     .calling{
     display: flex;
+    flex-direction: column;
     margin-top: 2em;
+    width: auto;
+    margin-bottom: 20px;
     
     h2{
         font-size:0.8;
@@ -114,7 +107,7 @@ font-family: $piedra;}
     }//end calling
     
     .pic-img{
-        padding: 20px;
+        padding: 40px;
     }
     .banner-index{
         padding: none;
@@ -123,20 +116,25 @@ font-family: $piedra;}
     .type-rental{
         padding: 2em;
         
+        
     }
-    .index-contact{padding: 20px;
+    .index-contact{
+        padding-top: 20px;
         text-align: center;
         background-color: #AED9E0;
-        margin-top: 10px;
+        
+        iframe{
+            width:80%;
+        }
     }
     
     .contact{
         
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-items: center;
         margin:auto;
-        padding:2em;
+        
         p{
             padding:2em;
         }
@@ -144,7 +142,7 @@ font-family: $piedra;}
     }
     .rersev-div{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         h1{text-align: center;}
     }
     .requeriments{
@@ -193,6 +191,7 @@ font-family: $piedra;}
     }
     .info{
         display: flex;
+        flex-direction: column;
         margin:auto;
         div{
             padding: 20px;
@@ -206,6 +205,7 @@ font-family: $piedra;}
             font-family:  $ubuntu;
         }
     }
+    
 
 }//end of main
 
