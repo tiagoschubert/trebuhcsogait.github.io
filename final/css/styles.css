@@ -457,7 +457,6 @@ nav {
 main {
   display: block;
   padding: 1rem 2%;
-  background-color: none;
   color: #5E6472; }
   main h1 {
     color: #5E6472;
@@ -488,7 +487,6 @@ main {
     width: auto;
     margin-bottom: 20px; }
     main .calling h2 {
-      font-size: 0.8;
       color: #AED9E0; }
   main .pic-img {
     padding: 10px; }
