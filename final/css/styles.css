@@ -465,6 +465,9 @@ main {
     font-family: "Piedra", cursive; }
   main h2 {
     font-family: "Piedra", cursive; }
+  main .index-section input {
+    padding: 5px;
+    margin-top: 10px; }
   main .index-section .submitBtn {
     margin-top: 10px; }
   main .index-section h1 {
@@ -546,9 +549,9 @@ main {
   main .form-contact {
     margin: auto;
     width: 100%; }
-    main .form-contact input {
-      margin: 20px;
-      font-family: "Ubuntu", sans-serif; }
+  main form .top {
+    margin-top: 20px;
+    font-family: "Ubuntu", sans-serif; }
   main .weather-tab {
     display: none;
     background-color: #AED9E0;

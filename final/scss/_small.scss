@@ -73,8 +73,9 @@ main{display: block; padding: 1rem $gutter;
     font-family: $piedra;}
     h2{font-family: $piedra;}//end h2
 
-    .index-section {
-     .submitBtn{
+    .index-section{
+    input{padding: 5px;margin-top:10px;}    
+    .submitBtn{
     margin-top:10px;}
     h1{text-align: center;}
     
@@ -197,10 +198,11 @@ main{display: block; padding: 1rem $gutter;
     .form-contact{
         margin: auto;
         width: 100%;
-        input{
-            margin:20px;
-            font-family:  $ubuntu;
-        }
+        
+    }
+    form .top{
+        margin-top:20px;
+        font-family:  $ubuntu;
     }
     .weather-tab{
         display: none;
