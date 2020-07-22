@@ -2,6 +2,7 @@
     "rentals": [
       {
         "renttype": "Honda Metro Scooter",
+        "max": 1,
         "reservation": [
           { "half": 20 },
           { "full": 30 }
