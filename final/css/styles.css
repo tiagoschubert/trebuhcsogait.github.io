@@ -482,7 +482,6 @@ main {
   main .calling {
     display: flex;
     flex-direction: column;
-    margin-top: 2em;
     width: auto;
     margin-bottom: 20px; }
     main .calling h2 {
