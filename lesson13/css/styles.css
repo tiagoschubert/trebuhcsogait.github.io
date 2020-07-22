@@ -571,6 +571,8 @@ main .index-contact {
 main .contact {
   display: flex;
   flex-direction: row;
+  justify-items: center;
+  margin: auto;
 }
 main .contact p {
   padding: 2em;
@@ -584,6 +586,47 @@ main .rersev-div h1 {
 }
 main .requeriments {
   margin-top: 3em;
+  padding: 20px;
+}
+main .rental-section {
+  width: 450px;
+  margin: auto;
+  background-color: #AED9E0;
+  padding: 20px;
+  border-radius: 5px;
+}
+main .rental-section h1 {
+  text-align: center;
+}
+main .rental-section .container table {
+  background-color: #FAF3DD;
+  padding: 5px;
+}
+main .rental-section .container table thead th {
+  background-color: #FFA69E;
+}
+main .rental-section .container table tbody th {
+  background-color: #FAF3DD;
+}
+main .rental-section .container table th, main .rental-section .container table td {
+  border: solid 1px #B8F2E6;
+}
+main .rental-section .container table tfoot td {
+  background-color: #7fb9c2;
+  font-size: 10px;
+  font-weight: 400;
+}
+main .rental-section .container table tr:nth-child(odd) {
+  background-color: #AED9E0;
+}
+main .rental-section .container table tr:nth-child(even) {
+  background-color: #B8F2E6;
+}
+main .info {
+  display: flex;
+  margin: auto;
+}
+main .info div {
   padding: 20px;
 }
 
@@ -659,6 +702,13 @@ footer {
 
   div.news {
     column-count: 3;
+  }
+
+  #rentalsimages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 35px 25px;
   }
 }
 /* end of media query */
