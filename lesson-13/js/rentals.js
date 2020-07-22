@@ -17,7 +17,6 @@ fetch(requestURL)
     let td5 = document.createElement('td');
     let td6 = document.createElement('td');
 
-
     td1.innerHTML = `${rentals.renttype}`;
     td2.innerHTML = `${rentals.max}`;
     td3.innerHTML = `$${rentals.reservation[0]['half']}`;
@@ -33,7 +32,6 @@ fetch(requestURL)
     card.appendChild(td6);
 
     document.getElementById('tr1').appendChild(card);
-
 
     let heading = document.createElement('h3');
     let div2 = document.createElement('div');
