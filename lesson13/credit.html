@@ -31,10 +31,29 @@
 </ul>
 </nav>
 <main >
-    <section class="index-section">
-        <h1> Your reservation has been confirmed. <br>Soon you will receive an email with all your reservation details.</h1>
         
-    </section>
+                <section>
+                        <h2>Reservation Confirmed</h2>
+                        <form method="get" action="confirmation.html">
+                            <fieldset>
+                                <legend>Payment Method</legend>
+                                <label for="cname">Name on Card</label>
+                                <input type="text" id="nameoncard" name="cardname" placeholder="Name surmane">
+                                <label for="ccnum">Credit card number</label>
+                                <input type="text" id="cardnumber" name="cardnumber" placeholder="0000-0000-0000-0000">
+                                <label for="expmonth">Exp Month</label>
+                                <input type="text" id="expmonth" name="expmonth" placeholder="July">
+                                <label for="expyear">Exp Year</label>
+                                <input type="text" id="expyear" name="expyear" placeholder="0000">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" name="cvv" placeholder="000">
+                            </fieldset>
+    
+                            <input type="submit" name="button" value="Pay" class="submitBtn">
+                        </form>
+                </section>
+        </main>
+        
 </main>
 <footer >
     <p>&copy; <span id="updated"></span> | Tiago Schubert | Arkansas | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></p>
