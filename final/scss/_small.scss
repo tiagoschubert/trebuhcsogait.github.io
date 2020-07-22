@@ -109,7 +109,7 @@ main{display: block; padding: 1rem $gutter;
         padding: 10px;
     }
     .banner-index{
-        padding: none;
+        width: auto;
     }
 
     .type-rental{
@@ -154,9 +154,7 @@ main{display: block; padding: 1rem $gutter;
         background-color: #AED9E0;
         padding: 20px;
         border-radius: 5px;
-        h1{
-            text-align: center;
-        }
+        
     .container table{
         background-color: #FAF3DD;
         padding: 5px;

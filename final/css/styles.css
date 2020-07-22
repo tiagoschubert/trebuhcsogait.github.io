@@ -490,7 +490,7 @@ main {
   main .pic-img {
     padding: 10px; }
   main .banner-index {
-    padding: none; }
+    width: auto; }
   main .type-rental {
     padding: 2em; }
   main .index-contact {
@@ -520,8 +520,6 @@ main {
     background-color: #AED9E0;
     padding: 20px;
     border-radius: 5px; }
-    main .rental-section h1 {
-      text-align: center; }
     main .rental-section .container table {
       background-color: #FAF3DD;
       padding: 5px; }
