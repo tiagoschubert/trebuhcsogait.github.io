@@ -1,11 +1,10 @@
 {
     "rentals": [
       {
-        "renttype": "Honda Metro Scooter",//rentaltyp
-        "max": 1,//maxpersons
+        "renttype": "Honda Metro Scooter",
         "reservation": [
-          { "half": 20 },//halfday
-          { "full": 30 }//fullday
+          { "half": 20 },
+          { "full": 30 }
         ],
         "walkin": [
           { "half": 25 },
