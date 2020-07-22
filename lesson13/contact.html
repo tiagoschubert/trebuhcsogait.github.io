@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cozumel Scoots -  WDD230</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    
+    
+</head>
+
+<body>
+<header >
+    
+    <div class="logo"><a href="index.html"><img alt="website logo" src="images/logo.png"></a></div>
+    <div class="sitename">Cozumel Scoots</div>
+    
+</header>
+<nav class="clearfix">
+    <button class="ham" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="response">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<main >
+    <section class="index-section">
+        
+        <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label class="">Full Name* <input type="text" name="fullName" required pattern="[A-z\s]{5,}"
+                            placeholder="Full Name"></label>
+                    <br>
+                    <label class="">Email:
+                        <input type="email" name="email" required placeholder="user@email.com"></label>
+                    <br>
+                    <label class="">Comments<br><textarea name="textArea"></textarea>
+                    </label>
+                </fieldset>
+
+                <input type="submit" name="button" value="Contact Us" class="submitBtn">
+            </form>
+        <div class="contact">
+                
+                <p>
+                    R. Cozumel,1 , Mexico 99999 <br>
+                    123.456.789 <br>
+                    reservations@cozumelscoots.com <br>
+                    <br> 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.742790701428!2d-86.97723018507656!3d20.475754786300563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xec697a2a774f7a00!2sTerminal%20Puerta%20Maya!5e0!3m2!1ses-419!2smx!4v1595029194319!5m2!1ses-419!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </p>
+                
+                <p>
+                    R. Cozumel,2 , Mexico 99998 <br>
+                    123.456.788 <br>
+                    reservations@cozumelscoots.com <br>
+                    <br>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.8592003811805!2d-86.95296768507596!3d20.511997386280616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cf3a0ece15%3A0x9216e3c2b55e5526!2sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock!5e0!3m2!1ses-419!2smx!4v1595029125220!5m2!1ses-419!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                    <br>
+                    
+                </p>
+
+        </div>
+        
+    </section>
+</main>
+<footer >
+    <p>&copy; <span id="updated"></span> | Tiago Schubert | Arkansas | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></p>
+</footer>
+
+</body>
+
+</html>
