@@ -36,11 +36,51 @@
     <div class="banner-index">
             <picture>
                     <source media="(max-width: 700px)" srcset="images/smallban.jpg ">
-                    <source media="(max-width: 900px)" srcset="images/mediumban.jpg ">
+                    <source media="(max-width: 900px)" srcset="images/smallban.jpg ">
                     <img src="images/bigban.png" alt="Montains, grass, clouds and sun">
             </picture>
     </div>
-    
+    <div class="weather-tab">  
+            <div class="today-details">
+                <div class="title">Weather Summary</div><br>
+                <div>Currently: Sunny</div>
+                <div>Temperature: <span id="Temperature"></span></div>
+                <div>Humidity: <span id="Humidity"></span></div>
+                
+            </div>
+            <h2>Next 5 Days:</h2>
+            <table>
+                    <tr>
+                        <th><span id='day1'></span></th>
+                        <th><span id='day2'></span></th>
+                        <th><span id='day3'></span></th>
+                        <th><span id='day4'></span></th>
+                        <th><span id='day5'></span></th>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <img id="image1" src="#" alt="icon1">
+                            <p><span id="numb-forecast1"></span>°F</p>
+                        </td>
+                        <td>
+                            <img id="image2" src="#" alt="icon2">
+                            <p><span id="numb-forecast2"></span>°F</p>
+                        </td>
+                        <td>
+                            <img id="image3" src="#" alt="icon3">
+                            <p><span id="numb-forecast3"></span>°F</p>
+                        </td>
+                        <td>
+                            <img id="image4" src="#" alt="icon4">
+                            <p><span id="numb-forecast4"></span>°F</p>
+                        </td>
+                        <td>
+                            <img id="image5" src="#" alt="icon5">
+                            <p><span id="numb-forecast5"></span>°F</p>
+                        </td>
+                    </tr> 
+            </table>
+        </div>
         <div class="type-rental">   
                 <h2> Type of Rentals</h2>
                     <ul>
@@ -61,47 +101,7 @@
                         </li>
                     </ul>
             </div>
-                <div class="weather-tab">  
-                    <div class="today-details">
-                        <div class="title">Weather Summary</div><br>
-                        <div>Currently: Sunny</div>
-                        <div>Temperature: <span id="Temperature"></span></div>
-                        <div>Humidity: <span id="Humidity"></span></div>
-                        
-                    </div>
-                    <h2>Next 5 Days:</h2>
-                    <table>
-                            <tr>
-                                <th><span id='day1'></span></th>
-                                <th><span id='day2'></span></th>
-                                <th><span id='day3'></span></th>
-                                <th><span id='day4'></span></th>
-                                <th><span id='day5'></span></th>
-                            </tr>
-                            <tr>
-                                <td> 
-                                    <img id="image1" src="#" alt="icon1">
-                                    <p><span id="numb-forecast1"></span>°F</p>
-                                </td>
-                                <td>
-                                    <img id="image2" src="#" alt="icon2">
-                                    <p><span id="numb-forecast2"></span>°F</p>
-                                </td>
-                                <td>
-                                    <img id="image3" src="#" alt="icon3">
-                                    <p><span id="numb-forecast3"></span>°F</p>
-                                </td>
-                                <td>
-                                    <img id="image4" src="#" alt="icon4">
-                                    <p><span id="numb-forecast4"></span>°F</p>
-                                </td>
-                                <td>
-                                    <img id="image5" src="#" alt="icon5">
-                                    <p><span id="numb-forecast5"></span>°F</p>
-                                </td>
-                            </tr> 
-                    </table>
-                </div>
+               
                 <div class="calling">
                     
                     <a href="reservations.html">  

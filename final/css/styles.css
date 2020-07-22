@@ -488,7 +488,7 @@ main {
       font-size: 0.8;
       color: #AED9E0; }
   main .pic-img {
-    padding: 40px; }
+    padding: 10px; }
   main .banner-index {
     padding: none; }
   main .type-rental {
@@ -551,6 +551,17 @@ main {
     main .form-contact input {
       margin: 20px;
       font-family: "Ubuntu", sans-serif; }
+  main .weather-tab {
+    display: none;
+    background-color: #AED9E0;
+    opacity: 0.85;
+    padding: 20px;
+    position: absolute;
+    top: 14em;
+    right: 14%; }
+    main .weather-tab .title {
+      font-size: 2em;
+      font-family: "Piedra", cursive; }
 
 footer {
   background-color: #B8F2E6;
@@ -636,19 +647,11 @@ footer {
     justify-items: center;
     grid-gap: 35px 25px; }
 
-  main .weather-tab {
-    background-color: #AED9E0;
-    opacity: 0.85;
-    padding: 20px;
-    position: absolute;
-    top: 14em;
-    right: 14%; }
-    main .weather-tab .title {
-      font-size: 2em;
-      font-family: "Piedra", cursive; }
-
   .index-contact {
     margin-left: 3em; }
     .index-contact iframe {
-      width: 300px; } }
+      width: 300px; }
+
+  main .weather-tab {
+    display: initial; } }
 /* end of media query */

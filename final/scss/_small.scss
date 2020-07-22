@@ -106,7 +106,7 @@ main{display: block; padding: 1rem $gutter;
     }//end calling
     
     .pic-img{
-        padding: 40px;
+        padding: 10px;
     }
     .banner-index{
         padding: none;
@@ -204,7 +204,21 @@ main{display: block; padding: 1rem $gutter;
             font-family:  $ubuntu;
         }
     }
+    .weather-tab{
+        display: none;
+        background-color: #AED9E0; 
+        opacity: 0.85;
+        padding: 20px;
+        position: absolute;
+        top: 14em;
+        right: 14%;
     
+        .title{
+            font-size: 2em;
+            font-family: $piedra;
+            
+            }
+        }
 
 }//end of main
 

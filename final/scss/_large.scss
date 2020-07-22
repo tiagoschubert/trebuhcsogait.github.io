@@ -26,23 +26,12 @@
         justify-items: center;
         grid-gap: 35px 25px;
     }
-    main .weather-tab{
-        background-color: #AED9E0; 
-        opacity: 0.85;
-        padding: 20px;
-        position: absolute;
-        top: 14em;
-        right: 14%;
-        
-        .title{
-            font-size: 2em;
-            font-family: $piedra;
-            
-            }
-        }
+    
         .index-contact {
             margin-left:3em;
             iframe{
                 width:300px;
             }
         }
+    main .weather-tab{
+        display: initial;}    
