@@ -465,6 +465,8 @@ main {
     font-family: "Piedra", cursive; }
   main h2 {
     font-family: "Piedra", cursive; }
+  main .index-section input {
+    margin: 10px; }
   main figure {
     margin: 0;
     width: 100%; }
@@ -485,7 +487,7 @@ main {
     font-size: .8rem; }
   main .calling {
     display: flex;
-    margin-top: 7em; }
+    margin-top: 2em; }
     main .calling h2 {
       font-size: 0.8;
       color: #AED9E0; }
@@ -496,12 +498,16 @@ main {
   main .type-rental {
     padding: 2em; }
   main .index-contact {
-    text-align: center; }
+    padding: 20px;
+    text-align: center;
+    background-color: #AED9E0;
+    margin-top: 10px; }
   main .contact {
     display: flex;
     flex-direction: row;
     justify-items: center;
-    margin: auto; }
+    margin: auto;
+    padding: 2em; }
     main .contact p {
       padding: 2em; }
   main .rersev-div {
@@ -544,7 +550,10 @@ main {
       padding: 20px; }
   main .form-contact {
     margin: auto;
-    width: 100px; }
+    width: 100%; }
+    main .form-contact input {
+      margin: 20px;
+      font-family: "Ubuntu", sans-serif; }
 
 footer {
   background-color: #B8F2E6;

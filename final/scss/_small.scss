@@ -73,6 +73,10 @@ font-weight: $heavyWeight;
 font-family: $piedra;}
  h2{font-family: $piedra;}//end h2
 
+ .index-section input{
+    margin:10px;
+    
+}
  
  figure{
     margin: 0;
@@ -100,7 +104,7 @@ font-family: $piedra;}
     
     .calling{
     display: flex;
-    margin-top: 7em;
+    margin-top: 2em;
     
     h2{
         font-size:0.8;
@@ -120,15 +124,19 @@ font-family: $piedra;}
         padding: 2em;
         
     }
-    .index-contact{
+    .index-contact{padding: 20px;
         text-align: center;
+        background-color: #AED9E0;
+        margin-top: 10px;
     }
+    
     .contact{
         
         display: flex;
         flex-direction: row;
         justify-items: center;
         margin:auto;
+        padding:2em;
         p{
             padding:2em;
         }
@@ -192,7 +200,11 @@ font-family: $piedra;}
     }
     .form-contact{
         margin: auto;
-        width: 100px;
+        width: 100%;
+        input{
+            margin:20px;
+            font-family:  $ubuntu;
+        }
     }
 
 }//end of main
