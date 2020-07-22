@@ -1,4 +1,4 @@
-const requestURL = 'http://trebuhcsogait.github.io/final/data/rentals.json';
+const requestURL = 'trebuhcsogait.github.io/final/data/rentals.json';
 
 fetch(requestURL)
 .then(function(response) {
@@ -8,7 +8,7 @@ fetch(requestURL)
 //console.table(jsonObject);
   const rentals = jsonObject['rentals'];
 
-  
+
   rentals.forEach(rentals => {
     let card = document.createElement('tr');
     let td1 = document.createElement('td');
