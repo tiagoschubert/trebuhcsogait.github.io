@@ -25,6 +25,9 @@ body {
 img{
   width: 20%;
 }
+nav {
+  padding-right: 50px;
+}
 ul{
   display:flex;
 }
@@ -34,12 +37,12 @@ li{
   border: 1px solid black;
   border-radius: 5px;
   background-color: rgb(0, 170, 253);
+  padding: 20px
   
 }
 li a {
   color: white;
-  padding: 50px;
-  margin: 30px;
+  padding: 1.5em;
 
 }
 
