@@ -10,7 +10,7 @@
 }
 
 body {
-  /* --hue: var(--hue-neutral);*/
+  /* --hue: var(--hue-neutral);  */
   padding: 0;
   margin: auto;
   display: flex;
