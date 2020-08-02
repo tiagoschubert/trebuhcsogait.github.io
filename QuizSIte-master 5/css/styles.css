@@ -27,6 +27,7 @@ img{
 }
 nav {
   padding-right: 50px;
+
 }
 ul{
   display:flex;
@@ -43,6 +44,8 @@ li{
 li a {
   color: white;
   padding: 1.5em;
+  font-size: 1.5rem;
+  font-weight: bold;
 
 }
 
@@ -50,6 +53,7 @@ h1{
   color: black;
   margin:auto;
   padding: 1.5em;
+  
 }
 #question{
   margin-bottom:10px;
@@ -128,4 +132,11 @@ body.wrong {
 }
 #question-container {
   font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  ul {
+    display:flex;
+    flex-direction: column;
+   
+  }
 }
