@@ -172,5 +172,15 @@ answers:[ {text:'    Potencial Hidrogeniônico*  ' ,correct: true},
 {text:'    Potencial hidrotermal   ' ,correct: false},
 {text:'    Potencial Hidrotonico   ' ,correct: false}]},
 
+{question:'  Qual o outro nome do peixe Betta?   ',
+answers:[ {text:'    Peixe de briga siamês  ' ,correct: true},
+{text:'    Peixe de briga irlandês   ' ,correct: false},
+{text:'    Peixe de briga germânico   ' ,correct: false}]},
+
+{question:'  O Tetra neon tem sua origem ...   ',
+answers:[ {text:'    America do Sul  ' ,correct: true},
+{text:'    Asia  ' ,correct: false},
+{text:'    Europa   ' ,correct: false}]},
+
 
 ]

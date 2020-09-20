@@ -178,5 +178,9 @@ answers:[ {text:'    Beteira   ' ,correct: false},
 {text:'    nano 30 litros  ' ,correct: false},
 {text:'    aquario 200 litros*  ' ,correct: true}]},
 
-  
+{question:'  Qual o tipo de reprodução do Peixe Papagaio?  ',
+answers:[ {text:'    Ovíparo   ' ,correct: true},
+{text:'    Viviparo  ' ,correct: false},
+{text:'    Fecundação interna ' ,correct: false}]},
+ 
 ]
