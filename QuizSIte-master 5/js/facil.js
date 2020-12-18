@@ -117,7 +117,7 @@ answers:[ {text:'    Molinesias  ' ,correct: false},
 {text:'    Acara bandeira   ' ,correct: false},
 {text:'    *kinguios  ' ,correct: true}]},
 
-{question:'  Qual é a última parte do processo de ciclagem?  ',
+{question:'  Qual é a última parte do processo de ciclagem?  ',//aquarium cycling
 answers:[ {text:'    Amônia  ' ,correct: false},
 {text:'    Nitrito   ' ,correct: false},
 {text:'    Nitrato*   ' ,correct: true}]},
@@ -182,5 +182,21 @@ answers:[ {text:'    America do Sul  ' ,correct: true},
 {text:'    Asia  ' ,correct: false},
 {text:'    Europa   ' ,correct: false}]},
 
+// perguntas para o app
+
+{question:'  Where is most of the biology of an aquarium?  ',
+answers:[ {text:'    water  ' ,correct: false},
+{text:'   trunk  ' ,correct: false},
+{text:'   filter   ' ,correct: true}]},
+
+{question:'  Cycling is the colonization of ...   ',
+answers:[ {text:'    Nitrifying bacteria ' ,correct: true},
+{text:'   Pathogenic bacteria  ' ,correct: false},
+{text:'   anaerobic bacteria    ' ,correct: false}]},
+
+{question:'  Name of the fish adaptation process to the new aquarium ',
+answers:[ {text:'    Acclimation' ,correct: true,
+{text:'    Acclotation  ' ,correct: false},
+{text:'   acclimotitation   ' ,correct: false}]},
 
 ]
