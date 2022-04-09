@@ -272,7 +272,7 @@ iframe{
   }
 
   fieldset{
-    display: flex;
+    
     border: solid #E5E5E5 3px;
     margin: auto;
     min-width: 100%;
