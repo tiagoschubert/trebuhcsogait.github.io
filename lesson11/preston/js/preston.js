@@ -1,5 +1,5 @@
 // PRESTON CURRENT WEATHER
-var apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=f82892a0a3a767ffe4875439f1ca5a0d&units=imperial';
+var apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=6550c3831761dea8b4e2a100db91503d&units=imperial';
 
 var weatherReq = new XMLHttpRequest();
 weatherReq.open('GET', apiURL, true);
