@@ -60,9 +60,10 @@
         
     }
   
-  .danger-label{
-    padding:5px;  
-  }
+    .danger-label{
+        display: inline-grid;
+        padding: 15px;  
+   }
     .end-box{
         display:flex;
         flex-direction: row;
