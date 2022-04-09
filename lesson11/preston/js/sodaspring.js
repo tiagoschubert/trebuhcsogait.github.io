@@ -52,7 +52,7 @@ fetch(URL)
 
  
 //  FORECAST
-var forecastRequestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=f82892a0a3a767ffe4875439f1ca5a0d&units=imperial';
+var forecastRequestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=6550c3831761dea8b4e2a100db91503d&units=imperial';
 fetch(forecastRequestURL)
     .then((response) => response.json())
 
