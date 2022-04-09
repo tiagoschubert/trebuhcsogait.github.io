@@ -27,7 +27,7 @@
 
     main {
         font-size: 18pt;
-        max-width: 1024px;
+        max-width: 100%;
         align-self: center;
         background-color: #14213D;
     }
