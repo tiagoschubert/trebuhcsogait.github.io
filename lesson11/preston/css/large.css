@@ -59,6 +59,10 @@
         
         
     }
+  
+  .danger-label{
+    padding:5px;  
+  }
     .end-box{
         display:flex;
         flex-direction: row;
