@@ -647,7 +647,9 @@ footer {
     grid-gap: 35px 25px; }
 
   .index-contact {
-    margin-left: 3em; }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
     .index-contact iframe {
       width: 300px; }
 
