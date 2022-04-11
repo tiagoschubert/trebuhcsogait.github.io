@@ -52,7 +52,7 @@
     }
 
     .gallery{
-        
+        display:inline-grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
         grid-gap: 35px 25px;
