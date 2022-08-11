@@ -184,19 +184,19 @@ answers:[ {text:'    America do Sul  ' ,correct: true},
 
 // perguntas para o app
 
-{question:'  Where is most of the biology of an aquarium?  ',
-answers:[ {text:'    water  ' ,correct: false},
-{text:'   trunk  ' ,correct: false},
-{text:'   filter   ' ,correct: true}]},
+// {question:'  Where is most of the biology of an aquarium?  ',
+// answers:[ {text:'    water  ' ,correct: false},
+// {text:'   trunk  ' ,correct: false},
+// {text:'   filter   ' ,correct: true}]},
 
-{question:'  Cycling is the colonization of ...   ',
-answers:[ {text:'    Nitrifying bacteria ' ,correct: true},
-{text:'   Pathogenic bacteria  ' ,correct: false},
-{text:'   anaerobic bacteria    ' ,correct: false}]},
+// {question:'  Cycling is the colonization of ...   ',
+// answers:[ {text:'    Nitrifying bacteria ' ,correct: true},
+// {text:'   Pathogenic bacteria  ' ,correct: false},
+// {text:'   anaerobic bacteria    ' ,correct: false}]},
 
-{question:'  Name of the fish adaptation process to the new aquarium ',
-answers:[ {text:'    Acclimation' ,correct: true,
-{text:'    Acclotation  ' ,correct: false},
-{text:'   acclimotitation   ' ,correct: false}]},
+// {question:'  Name of the fish adaptation process to the new aquarium ',
+// answers:[ {text:'    Acclimation' ,correct: true,
+// {text:'    Acclotation  ' ,correct: false},
+// {text:'   acclimotitation   ' ,correct: false}]},
 
 ]
